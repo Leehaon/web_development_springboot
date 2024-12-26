@@ -12,7 +12,7 @@ public class TestService {
     MemberRepository memberRepository;  // 1. 빈 주입
 
     public List<Member> getAllMembers() {
-        return memberRepository.findAll();  // 2. 멤버 목록 얻기  // 왜 findall()인가에 주목하셔야합니다.
+        return memberRepository.findAll();  // 2. 멤버 목록 얻기  // 왜 findAll()인가에 주목하셔야합니다.
     }
     /*
         1. MemberRepository라는 빈을 주입 받은 후에,
