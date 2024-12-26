@@ -12,10 +12,10 @@ import lombok.NoArgsConstructor;
 public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "name", nullable = false)
+    @Column(name = "id", nullable = false)      // 테이블 상에서의 컬럼 명이 id라는 의미
     private Long id;    // DB 테이블의 'id' 컬럼과 매칭
 
-    @Column(name = "name", nullable = false)
+    @Column(name = "name", nullable = false)    // 테이블 상에서의 컬럼 명이 name이라는 의미
     private String name;    // DB 테이블의 'name' 컬럼과 매칭
     /*
         각 에너테이션의 역할은 lombok의 경우 java 과정에서 다 설명했습니다.

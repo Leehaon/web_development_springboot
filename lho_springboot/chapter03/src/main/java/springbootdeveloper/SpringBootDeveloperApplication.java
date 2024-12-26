@@ -96,8 +96,27 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         3. 퍼시스턴스 계층 코드 작성 -> 같은 위치에 Member.java 생성하세요 -> 실제 DB에 접근하는 코드 작성
         4. 매핑 작업에는 '인터페이스' 파일이 필요. MemberRepository 인터페이스를 같은 위치에 생성하세요.
 
-
     작동을 확인해보겠습니다.
+
+        01 단계 - resources 폴더에 sql문 하나 추가할겁니다.
+            resources 우클릭 -> new -> file -> data.sql
+
+        02 단계 - 이제는 기존에 만들어둔 application.yml 파일을 수정할겁니다.
+
+        03 단계 - 서버 실행 후에 ctrl + f 눌러서 create 검색해서 table이 생성됐는지 확인
+
+        04 단계 - Postman에서 HTTP 요청을 시도해봅니다.
+            1) 포스트맨 실행
+            2) HTTP 메서드를 GET으로 설정하고 URL에
+                http://localhost:8080/test로 설정(TestController.java 확인)
+            3) SEND 버튼 누릅니다.
+            4) 200 OK인지 확인
+
+HTTP 요청 ----> TestController <----> TestService <----> MemberRepository <----> Database
+url:/test ----> 프레젠테이션 계층       비지니스 계층        퍼시스턴스 계층           데이터베이스
+
+
+chapter04 프로젝트 생성
 
  */
 @SpringBootApplication
