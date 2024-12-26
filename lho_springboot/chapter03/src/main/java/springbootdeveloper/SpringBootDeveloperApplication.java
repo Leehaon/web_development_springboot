@@ -126,7 +126,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
                 spring-boot-starter-{작업유형}
 
             자주 사용하는 스타터의 예시
-            spring-boot-starter-wdb : Spring MVC를 사용해 RESTful 웹 서비스를 개발 할 때 필요한 의존성 모음
+            spring-boot-starter-wdb : Spring MVC를 사용해 RESTful 웹 서비스를 개발 할 때 필요한 의존성
             spring-boot-starter-test : 스프링 애플리케이션을 테스트하기 위해 필요한 의존성 모음
             spring-boot-starter-validation : 유효성 검사를 위해 필요한 의존성 모음
             spring-boot-starter-actuator : 모니터링을 위해 애플리케이션에서 제공하는 다양한 정보를
