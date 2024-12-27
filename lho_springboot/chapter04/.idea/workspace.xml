@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c980e82-1fb6-4d43-8bca-d08d88889a70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter03/src/main/java/springbootdeveloper/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter03/src/main/java/springbootdeveloper/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter03/src/main/java/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter03/src/main/java/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter03/src/main/java/springbootdeveloper/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter03/src/main/java/springbootdeveloper/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter03/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter03/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2qke0QJvMnh8paTPVLtl3qe5SHW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -67,7 +65,9 @@
     "Gradle.JUnit.junitFaildeTest.executor": "Run",
     "Gradle.JUnit.junitFailedTest.executor": "Run",
     "Gradle.JUnit.junitTest.executor": "Run",
-    "Gradle.JUnitCycleTest.executor": "Debug",
+    "Gradle.JUnitCycleTest (1).executor": "Run",
+    "Gradle.JUnitCycleTest.executor": "Run",
+    "Gradle.JUnitQuiz.executor": "Run",
     "Gradle.chapter04 [:springbootdeveloper.SpringBootDeveloperApplication.main()].executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -82,7 +82,7 @@
       <recent name="C:\LeeHaOn\lho_springboot\chapter04\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JUnitCycleTest">
+  <component name="RunManager">
     <configuration name="JUnit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
