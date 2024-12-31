@@ -141,4 +141,4 @@ class MemberRepositoryTest {
         assertThat(memberRepository.findById(2L).isEmpty()).isTrue();
     }
 
-}}
+}
