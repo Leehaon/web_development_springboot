@@ -40,14 +40,14 @@ SELECT *
 -- select * from users; : users 테이블에 있는 모든 컬럼의 값을 조회하라
 
 -- 연습문제 2 : 제품 정보 테이블 products에 있는 모든 데이터를 출력하시오.
-select * from products;
+SELECT * FROM products;
 -- 한 줄로 쓰는 것도 가능 -> 긴 쿼리문을 쓸 때는 가독성 때문에 개행을 하게 되는데,
 -- 차근차근 연습하기 위해서 한 줄로 쓸 때도 있고 나눌 때도 있을 예정
 -- 원래 제가 쿼리문 명령어에 해당하는 부분은 가독성 때문에 대문자를 쓸 예정이었는데
 -- 얘가 지혼자서 소문자로 바뀌어가지고 미리 설명드리는데
 -- 얘는 대소문자를 구분하지 않습니다.
--- LIMIT : 개수 제한을 거는 명령어(IDE를 쓰느냐에 따라서 TOP일 때도 있습니다)
-select * FROM products LIMIT 3;
+-- LIMIT : 개수 제한을 거는 명령어(IDE를 쓰느냐에 따라서 TOP일 때도 있습니다
+SELECT * FROM products LIMIT 3;
 -- 이렇게 *를 사용해서 전체 정보를 조회하는 것을 full scan을 쓰는데, 빈도가 높지 않습니다
 -- 물론 시험에도 자주 나오지 않습니다.
 
@@ -55,9 +55,9 @@ select * FROM products LIMIT 3;
 
 -- SELECT 컬럼명1, 컬럼명2 from 테이블명;
 -- 제품 정보 테이블인 products에서 제품 아이디(id), 제품명(name) 컬럼만 출력합니다.
-select id, name FROM products;
+SELECT id, name FROM products;
 -- products에서 가격(price), 할인가(discount_price) 컬럼을 10개만 출력합니다.
-select price, discount_price 
+SELECT price, discount_price 
 	FROM products 
 	LIMIT 10;
 -- SQL문의 경우에는 순서가 매우 명확하게 정해져있는 편이기 때문에
