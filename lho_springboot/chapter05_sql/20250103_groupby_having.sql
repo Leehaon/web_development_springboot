@@ -1,7 +1,7 @@
 -- HAVING
 -- group by를 이용해서 데이터를 그룹화하고, 해당 그룹별로 집계 연산을 수행하여,
 -- 국가 별 회원 수를 도출해낼 수 있었습니다.(COUNT())
--- 예르 들어서, 회원 수가 n명 이상인 국가의 회원 수만 보는 등의 조건을 걸려면 어떡해야 할까?
+-- 예를 들어서, 회원 수가 n명 이상인 국가의 회원 수만 보는 등의 조건을 걸려면 어떡해야 할까?
 
 -- WHERE절을 이용하는 방법이 있긴 하지만 추가적인 개념에 대해서 학습할 예정입니다.
 -- 언제나  WHERE을 쓰는 것이 용이하지 않다는 점 부터 짚고 넘어가서 HAVING 학습을 할 예정
@@ -180,11 +180,27 @@ SELECT country, city, COUNT(DISTINCT id) AS uniqueUserCnt
 -- users에서 월별(e.g. 2013-10) 가입 회원 수를 출력할 것.
 -- 가입일시 컬럼 활용하고, 최신순으로 정렬할 것.
 	
+-- 1번 쿼리
 SELECT substr(created_at, 1, 7) AS month, count(DISTINCT id) AS uniqueUserCnt
 	FROM users
 	GROUP BY substr(created_at, 1, 7)	-- 이거 확인 후에 말씀드리겠습니다.(month로 썼을 경우)
+	ORDER BY substr(created_at, 1, 7) DESC
+	; 
+
+-- 2번 쿼리
+SELECT substr(created_at, 1, 7) AS month, count(DISTINCT id) AS uniqueUserCnt
+	FROM users
+	GROUP BY month	
 	ORDER BY month DESC
 	; 
+
+-- 표준 SQL에서는 1번 쿼리만 가능하고, MariaDB에서느 ALIAS를 Group by, Order by에
+-- 사용 가능(2번 쿼리가 MariaDB에서는 가능)
+
+-- SQLD / P에서는 2번 쿼리와 같은 방식으로 출제 되지 않습니다.
+
+-- DB간 호환성을 염두에 두고 있을 때는 1번 쿼리 방식으로 작성하는 것이 안전합니다.
+
 
 -- 1. orderdetails에서 order_id 별 주문 수량 quantity의 총합을 출력할 것.
 	-- 주문 수량의 총합이 내림차순으로 정렬되도록 할 것(함수는 어제 수업에서 한 것 확인)

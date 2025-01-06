@@ -31,6 +31,7 @@ SELECT *
 	FROM users
 	WHERE created_at BETWEEN "2010-12-10" AND "2011-01-01"
 	;
+
 -- where절을 작성하는데 있어서 컬럼여이 먼저나오고 =, !=, between등을 적용
 -- select절 + from 테이블명 + where
 -- between : 시작값과 종료 값을 '포함'하는 범위 내의 데이터를 조회
@@ -267,7 +268,9 @@ SELECT *
 	WHERE 주문일자 = '2023-08-01'
 		AND 쿠폰할인금액 > 0
 	;
+
 	-- 2) 마포구에서 1인분 배달이 가능한 배달 음식점 추출
+
 SELECT *
 	FROM 음식점정보
 	WHERE 지역 = "마포구"
