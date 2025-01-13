@@ -19,7 +19,8 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
-    // 여기서부터 추가합니다. Implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    //여기서부터 추가합니다
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 test {

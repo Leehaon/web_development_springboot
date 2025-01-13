@@ -16,6 +16,6 @@ public class ArticleListViewResponse {
     }
     /*
         다 작성한분들 controller 패키지에
-        blogViewController 파일 만들겠습니다.
+        BlogViewController 파일 만들겠습니다.
      */
 }
