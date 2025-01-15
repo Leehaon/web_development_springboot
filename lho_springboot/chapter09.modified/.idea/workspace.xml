@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f29b10b-15de-4f13-bbbd-5fb19c6b764f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/SpringSecurityFilterChain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter08_modified/src/main/resources/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/SpringSecurityFilterChain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter09_modified/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/src/main/java/me/Leehaon/springbootdeveloper/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/src/main/java/me/Leehaon/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/src/main/java/me/Leehaon/springbootdeveloper/controller/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/src/main/java/me/Leehaon/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/src/main/java/me/Leehaon/springbootdeveloper/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/src/main/java/me/Leehaon/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter08/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter08/src/main/resources/templates/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chapter09.modified" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2rf9Du3N4C0hOSZiwtYevuujsj8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/LeeHaOn/lho_springboot",
+    "onboarding.tips.debug.path": "C:/LeeHaOn/lho_springboot/chapter09.modified/src/main/java/me/ahngeunsu/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\LeeHaOn\lho_springboot\chapter09.modified\src\main" />
+      <recent name="C:\LeeHaOn\lho_springboot\chapter09.modified\src\main\java\me\ahngeunsu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f29b10b-15de-4f13-bbbd-5fb19c6b764f" name="Changes" comment="" />
+      <created>1736939148332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736939148332</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../chapter09_modified/src/main/java/me/ahngeunsu/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
