@@ -36,11 +36,15 @@ public class Article {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
+    @Column(name = "author", nullable = false)
+    private String author;
+
     @Builder
-    public Article(String title, String content) {
+    public Article(String author, String title, String content) {
+        this.author = author;
         this.title = title;
         this.content = content;
-    }
+    }   // - builder 파트를 수정했으므로 dto도 수정되야 합니다 -> AddArticleRequest.java의 toEntity() 수정해야 함.
 
     public void update(String title, String content) {
         this.title = title;
