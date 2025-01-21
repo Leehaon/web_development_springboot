@@ -18,6 +18,7 @@ spring:
           google:
             client-id:
             client-secret:
+            # 이거 두개는 삭제하고 git push 할것 (이 주석은 지우기 금지) 네이버 메일에서 가지고 오기
             scope:
               - email
               - profile

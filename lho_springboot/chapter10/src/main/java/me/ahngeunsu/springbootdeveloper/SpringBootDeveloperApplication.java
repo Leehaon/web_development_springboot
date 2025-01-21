@@ -154,4 +154,11 @@ public class SpringBootDeveloperApplication {
         유틸리티로 사용할 쿠키 관리 클래스를 미리 구현
 
         springbootdeveloper 패키지 내에 util 패키지르 생성 -> CookieUtil.java를 생성
+
+        Google Cloud 콘솔
+        https://cloud.google.com/cloud-console
+        1. 여기서 로그인 후
+        2. 콘솔 누르고
+        3. 왼쪽위에 탐색메뉴 눌러서
+        4. API 서비스 - 사용자 인증 정보
  */
